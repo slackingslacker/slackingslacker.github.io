@@ -1,47 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue-router"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/index.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <title>Tutorials</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <title>Sample VUE - Bulma For Scraping</title>
 </head>
-
 <body>
-    <div id="app">
-        <nav class="navbar">
-            <div class="container">
-                <div class="navbar-brand">
-                    <span class="navbar-burger burger" data-target="navbarMenu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </div>
-                <div id="navbarMenu" class="navbar-menu">
-                    <div class="navbar-end">
-                        <router-link to="/" class="navbar-item">Go to Main</router-link>
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link">Scraping</a>
-                            <div class="navbar-dropdown">
-                                <router-link to="/simple" class="navbar-item">Simple</router-link>
-                                <router-link to="/bar" class="navbar-item">Go to Bar</router-link>
-                                <!--<hr class="navbar-divider" />
-                                <div class="navbar-item">Logout</div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <div class="container">
-            <router-view></router-view>
-        </div>
-    </div>
-    <script src="index.js"></script>
+<div id="app">
+    <main-app></main-app>
+</div>
+<script src="js/index.js"></script>
 </body>
 
 </html>

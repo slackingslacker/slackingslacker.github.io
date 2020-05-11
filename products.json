@@ -1,0 +1,324 @@
+{
+  "products": [
+    {
+      "itemNo" : "50001",
+      "name" : "Apple",
+      "price" : 0.85,
+      "image" : "apples.jpg",
+      "description" : "1 lbs of apples",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Bacon",
+      "price" : 4.23,
+      "image" : "bacon.jpg",
+      "description" : ".5 lbs of bacon",
+      "type": "meat"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Short Bananas",
+      "price" : 0.21,
+      "image" : "bananas.jpg",
+      "description" : "20 pcs of short bananas",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Long Bananas",
+      "price" : 0.25,
+      "image" : "bananas-long.jpg",
+      "description" : "10 pcs of long bananas",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Biscuits",
+      "price" : 0.59,
+      "image" : "biscuit.jpg",
+      "description" : "1 pack biscuits",
+      "type": "other"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Sweet Bread",
+      "price" : 0.90,
+      "image" : "bread-sweet.jpg",
+      "description" : "6 pcs sweet bread",
+      "type": "other"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Beef",
+      "price" : 4.23,
+      "image" : "beef.jpg",
+      "description" : "1.3 lbs of beef cut.",
+      "type": "meat"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Loaf of Bread",
+      "price" : 0.50,
+      "image" : "bread-loaf.jpg",
+      "description" : "1 pc loaf bread",
+      "type": "other"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Carrots",
+      "price" : 0.45,
+      "image" : "carrots.jpg",
+      "description" : ".5 lbs of carrots",
+      "type": "vegetable"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Chicken",
+      "price" : 3.87,
+      "image" : "chicken.jpg",
+      "description" : "1.2 lbs of chicken breasts",
+      "type": "meat"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Coffe Beans",
+      "price" : 5.98,
+      "image" : "coffee-bean.jpg",
+      "description" : "1 lbs coffee beans",
+      "type": "other"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Cookie",
+      "price" : 0.65,
+      "image" : "cookie.jpg",
+      "description" : "1 pc chocolate chip cookie",
+      "type": "other"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Corn",
+      "price" : 0.56,
+      "image" : "corn.jpg",
+      "description" : "1 lb of raw sweet corn",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Cupcake",
+      "price" : 0.90,
+      "image" : "cupcake.jpg",
+      "description" : "1 pc chocolate cupcake",
+      "type": "other"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Sprinkled Doughnut",
+      "price" : 0.80,
+      "image" : "donut-sprinkle.jpg",
+      "description" : "1 pc sprinkled doughnut",
+      "type": "other"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Chocolate Doughnut",
+      "price" : 0.80,
+      "image" : "donut-choco.jpg",
+      "description" : "1 pc chocolate doughnut",
+      "type": "other"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Coconut",
+      "price" : 1.54,
+      "image" : "coconut.jpg",
+      "description" : "1 pc of coconut",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Cucumbers",
+      "price" : 0.43,
+      "image" : "cucumber.jpg",
+      "description" : "2 pcs of cucumber",
+      "type": "vegetable"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Strawberry Doughnut",
+      "price" : 0.80,
+      "image" : "donut-berry.jpg",
+      "description" : "1 pc strawberry doughnut",
+      "type": "other"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Dozen of Eggs",
+      "price" : 2.23,
+      "image" : "eggs-dozen.jpg",
+      "description" : "1 pack of eggs",
+      "type": "meat"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Tray of Eggs",
+      "price" : 3.85,
+      "image" : "eggs-tray.jpg",
+      "description" : "1 pack of eggs",
+      "type": "meat"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Fish",
+      "price" : 2.39,
+      "image" : "fish.jpg",
+      "description" : "1.5 lbs of raw sardines",
+      "type": "meat"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Purple Grapes",
+      "price" : 1.39,
+      "image" : "grapes.jpg",
+      "description" : "1 lb of grapes",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Green Grapes",
+      "price" : 1.39,
+      "image" : "grapes-green.jpg",
+      "description" : "1 lb of green grapes",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Kiwi",
+      "price" : 1.89,
+      "image" : "kiwi.jpg",
+      "description" : "1.43 lbs of kiwi",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Ground Pork",
+      "price" : 2.39,
+      "image" : "ground-pork.jpg",
+      "description" : ".65 lbs of ground pork",
+      "type": "meat"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Lemon",
+      "price" : 0.20,
+      "image" : "lemon.jpg",
+      "description" : ".75 lbs of lemon",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Lettuce",
+      "price" : 0.35,
+      "image" : "lettuce.jpg",
+      "description" : ".5 lbs of lettuce (fresh)",
+      "type": "vegetable"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Peat",
+      "price" : 0.78,
+      "image" : "pear.jpg",
+      "description" : "2 pcs of pear",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Pepper",
+      "price" : 0.39,
+      "image" : "pepper.jpg",
+      "description" : ".75 lbs of pepper",
+      "type": "vegetable"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Bell Pepper",
+      "price" : 0.45,
+      "image" : "pepper-bell.jpg",
+      "description" : ".65 lbs of bell pepper",
+      "type": "vegetable"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Pineapple",
+      "price" : 1.45,
+      "image" : "pineapple.jpg",
+      "description" : "1 pc of raw pineapple",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Potatoes",
+      "price" : 0.67,
+      "image" : "potato.jpg",
+      "description" : ".75 lbs of Potoes",
+      "type": "vegetable"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Pumpkin",
+      "price" : 1.84,
+      "image" : "pumpkin.jpg",
+      "description" : "1 pc pumpkin",
+      "type": "vegetable"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Raspberries",
+      "price" : 2.56,
+      "image" : "raspberry.jpg",
+      "description" : "1 lbs of raspberry",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Strawberry",
+      "price" : 1.62,
+      "image" : "strawberry.jpg",
+      "description" : "1 lbs of strawberry",
+      "type": "fruit"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Beef Steak",
+      "price" : 2.39,
+      "image" : "steak.jpg",
+      "description" : "1.2 lbs of beef steak",
+      "type": "meat"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Pork Steak",
+      "price" : 2.39,
+      "image" : "steak-cut.jpg",
+      "description" : "1.5 lbs of pork steak",
+      "type": "meat"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Tomatoes",
+      "price" : 0.84,
+      "image" : "tomato.jpg",
+      "description" : ".75 lbs of tomatoes",
+      "type": "vegetable"
+    },
+    {
+      "itemNo" : "50001",
+      "name" : "Watermelon",
+      "price" : 2.32,
+      "image" : "watermelon.jpg",
+      "description" : "1 pc watermelon",
+      "type": "fruit"
+    }
+  ]
+}
