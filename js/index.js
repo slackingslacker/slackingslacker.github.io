@@ -18,10 +18,7 @@ Vue.component('main-nav-bar', {
                 <div class="navbar-start">
                     <router-link to="/" class="navbar-item">Home</router-link>
                     <router-link to="/products/all" class="navbar-item">Products</router-link>
-
-                    <a class="navbar-item">
-                        About Us
-                    </a>
+                    <router-link to="/about" class="navbar-item">About</router-link>
                 </div>
 
             </div>
@@ -275,9 +272,30 @@ const Products = {
     }
 }
 
+const About = {
+    template: `
+        <div>
+            <div class="has-text-centered">
+                <div class="columns">
+                    <div class="column is-size-1 is-three-fifths is-offset-one-fifth">About This Website</div>
+                </div>
+                <div class="columns">
+                    <div class="column is-three-fifths is-offset-one-fifth">
+                        <p class="has-text-justified">This website is for educational purpose only. The purpose of the
+                        site is to try out different techniques used in scraping specially using selenium. You can visit my
+                        <a href="https://doitsimpler.blogspot.com/" target="blank">blog</a> for more information on how
+                        to learn web scraping.
+                    </div>
+                </div>
+            </div>
+        </div>
+    `
+}
+
 const routes = [
     { path: '/', component: Main },
-    { path: '/products/:category', component: Products }
+    { path: '/products/:category', component: Products },
+    { path: '/about', component: About }
 ]
 
 const router = new VueRouter({
