@@ -283,7 +283,7 @@ const About = {
                     <div class="column is-three-fifths is-offset-one-fifth">
                         <p class="has-text-justified">This website is for educational purpose only. The purpose of the
                         site is to try out different techniques used in scraping specially using selenium. You can visit my
-                        <a href="https://doitsimpler.blogspot.com/" target="blank">blog</a> for more information on how
+                        <a href="https://doitsimpler.blogspot.com/" target="_blank">blog</a> for more information on how
                         to learn web scraping.
                     </div>
                 </div>
