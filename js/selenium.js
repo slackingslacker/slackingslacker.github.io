@@ -24,9 +24,15 @@ Vue.component('main-nav-bar', {
                     </div>
                 </div>
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <router-link to="/forms" class="navbar-link">Details</router-link>
+                    <router-link to="/staticdetails" class="navbar-link">Details</router-link>
                     <div class="navbar-dropdown is-boxed">
                         <router-link to="/staticdetails" class="navbar-item">Static Details</router-link>
+                    </div>
+                </div>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <router-link to="/divtags" class="navbar-link">Tags</router-link>
+                    <div class="navbar-dropdown is-boxed">
+                        <router-link to="/divtags" class="navbar-item">Div Tags</router-link>
                     </div>
                 </div>
                 <router-link to="/about" class="navbar-item">About</router-link>
@@ -224,6 +230,16 @@ const StaticDetails = {
     `
 }
 
+const DivTags = {
+    template: `
+        <div id="hiddenElements">
+            <div style="display: none;">This is a hidden element</div>
+            <div style="width: 0px;height: 0px;"></div>
+            <div>Visible div</div>
+        </div>
+    `
+}
+
 const About = {
     template: `
         <div>
@@ -248,6 +264,7 @@ const routes = [
     { path: '/', component: Main },
     { path: '/forms', component: FormSubmitPage },
     { path: '/staticdetails', component: StaticDetails },
+    { path: '/divtags', component: DivTags },
     { path: '/about', component: About }
 ]
 
