@@ -237,6 +237,10 @@ const DivTags = {
             <div style="width: 0px;height: 0px;"></div>
             <div>Visible div</div>
         </div>
+        <div id="textExpectation">
+            <div>Expected Text</div>
+            <div><input type="text" value="This is an input"></div>
+        </div>
     `
 }
 
