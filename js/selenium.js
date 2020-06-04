@@ -233,13 +233,13 @@ const StaticDetails = {
 const DivTags = {
     template: `
         <div class="container">
-            <div><h2>DIV Tags for Visibility</h2></div>
+            <div><h2 class="is-size-3">Div Tags for Visibility</h2></div>
             <div id="hiddenElements">
                 <div style="display: none;">This is a hidden element</div>
                 <div style="width: 0px;height: 0px;"></div>
                 <div>Visible div</div>
             </div>
-            <div class="divider-top"><h2>DIV Tags for TEXT</h2></div>
+            <div class="divider-top"><h2 class="is-size-3">Div Tags for Text</h2></div>
             <div id="textExpectation">
                 <div>Expected Text</div>
                 <div><input type="text" value="This is an input"></div>
