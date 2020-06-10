@@ -248,6 +248,17 @@ const DivTags = {
             <div id="alertExpectation">
                 <div><button onclick="alert('There is an alert')">Show Alert</button></div>
             </div>
+            <div class="divider-top"><h2 class="is-size-3">For Elements</h2></div>
+            <div id="elementExpectation">
+                <div>
+                    <input type="checkbox" name="forSelected" value="Selected" checked/> Selected Checkbox
+                    <input type="checkbox" name="notSelected" value="Not Selected"/> Not Selected Checkbox
+                </div>
+                <div>
+                    <input type="radio" name="forSelectedRadio" value="Selected" checked/> Selected Radio
+                    <input type="radio" name="notSelectedRadio" value="Not Selected"/> Not Selected Radio
+                </div>
+            </div>
         </div>
     `
 }
