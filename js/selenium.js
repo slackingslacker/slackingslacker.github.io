@@ -244,6 +244,10 @@ const DivTags = {
                 <div>Expected Text</div>
                 <div><input type="text" value="This is an input"></div>
             </div>
+            <div class="divider-top"><h2 class="is-size-3">Alert</h2></div>
+            <div id="alertExpectation">
+                <div><button onclick="alert('There is an alert')">Show Alert</button></div>
+            </div>
         </div>
     `
 }
