@@ -30,9 +30,9 @@ Vue.component('main-nav-bar', {
                     </div>
                 </div>
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <router-link to="/divtags" class="navbar-link">Tags</router-link>
+                    <router-link to="/seleniumwait" class="navbar-link">Tags</router-link>
                     <div class="navbar-dropdown is-boxed">
-                        <router-link to="/divtags" class="navbar-item">Div Tags</router-link>
+                        <router-link to="/seleniumwait" class="navbar-item">Div Tags</router-link>
                     </div>
                 </div>
                 <router-link to="/about" class="navbar-item">About</router-link>
@@ -230,36 +230,106 @@ const StaticDetails = {
     `
 }
 
-const DivTags = {
+const WaitSelenium = {
     template: `
         <div class="container">
-            <div><h2 class="is-size-3">Div Tags for Visibility</h2></div>
-            <div id="hiddenElements">
-                <div style="display: none;">This is a hidden element</div>
-                <div style="width: 0px;height: 0px;"></div>
-                <div>Visible div</div>
-            </div>
-            <div class="divider-top"><h2 class="is-size-3">Div Tags for Text</h2></div>
-            <div id="textExpectation">
-                <div>Expected Text</div>
-                <div><input type="text" value="This is an input"></div>
-            </div>
-            <div class="divider-top"><h2 class="is-size-3">Alert</h2></div>
-            <div id="alertExpectation">
-                <div><button onclick="alert('There is an alert')">Show Alert</button></div>
-            </div>
-            <div class="divider-top"><h2 class="is-size-3">For Elements</h2></div>
-            <div id="elementExpectation">
-                <div>
-                    <input type="checkbox" name="forSelected" value="Selected" checked/> Selected Checkbox
-                    <input type="checkbox" name="notSelected" value="Not Selected"/> Not Selected Checkbox
+    <div class="columns is-multiline">
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        Wait For Visibility
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <div id="hiddenElements">
+                            <div style="display: none;">This is a hidden element</div>
+                            <div style="width: 0px;height: 0px;"></div>
+                            <div>Visible div</div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <input type="radio" name="forSelectedRadio" value="Selected" checked/> Selected Radio
-                    <input type="radio" name="notSelectedRadio" value="Not Selected"/> Not Selected Radio
+                <footer class="card-footer">
+                    &nbsp;
+                </footer>
+            </div>
+        </div>
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        Wait For Text Values
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <div id="textExpectation">
+                            <div>Expected Text</div>
+                            <div><input type="text" value="This is an input"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        Wait For Alert
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <div id="alertExpectation">
+                            <div>
+                                <button onclick="alert('There is an alert')">Show Alert</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        Wait For Selected/Selection
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <div id="elementSelection">
+                            <div>
+                                <input type="checkbox" name="forSelected" value="Selected" checked/> Selected Checkbox <br/>
+                                <input type="checkbox" name="notSelected" value="Not Selected"/> Not Selected Checkbox
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        Wait For Selected/Selection
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <div id="elementSelected">
+                            <div>
+                                <input type="radio" name="forSelectedRadio" value="Selected" checked/> Selected Radio <br/>
+                                <input type="radio" name="notSelectedRadio" value="Not Selected"/> Not Selected Radio
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     `
 }
 
@@ -287,7 +357,7 @@ const routes = [
     { path: '/', component: Main },
     { path: '/forms', component: FormSubmitPage },
     { path: '/staticdetails', component: StaticDetails },
-    { path: '/divtags', component: DivTags },
+    { path: '/seleniumwait', component: WaitSelenium },
     { path: '/about', component: About }
 ]
 
