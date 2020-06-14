@@ -32,7 +32,7 @@ Vue.component('main-nav-bar', {
                 <div class="navbar-item has-dropdown is-hoverable">
                     <router-link to="/seleniumwait" class="navbar-link">Tags</router-link>
                     <div class="navbar-dropdown is-boxed">
-                        <router-link to="/seleniumwait" class="navbar-item">Div Tags</router-link>
+                        <router-link to="/seleniumwait" class="navbar-item">Selenium Wait</router-link>
                     </div>
                 </div>
                 <router-link to="/about" class="navbar-item">About</router-link>
@@ -322,6 +322,25 @@ const WaitSelenium = {
                             <div>
                                 <input type="radio" name="forSelectedRadio" value="Selected" checked/> Selected Radio <br/>
                                 <input type="radio" name="notSelectedRadio" value="Not Selected"/> Not Selected Radio
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        Wait For Clickable
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <div id="elementClickable">
+                            <div>
+                                <button id="clickableBtn">Clickable</button>
+                                <button id="unclickableBtn" disabled="true">Disabled button</button>
                             </div>
                         </div>
                     </div>
