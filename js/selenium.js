@@ -302,7 +302,12 @@ const WaitSelenium = {
                         <div id="elementSelection">
                             <div>
                                 <input type="checkbox" name="forSelected" value="Selected" checked/> Selected Checkbox <br/>
-                                <input type="checkbox" name="notSelected" value="Not Selected"/> Not Selected Checkbox
+                                <input type="checkbox" name="notSelected" value="Not Selected"/> Not Selected Checkbox <br/>
+                                <select name="fruitSelection">
+                                    <option value="orange">Orange</option>
+                                    <option value="apple" selected>Apple</option>
+                                    <option value="pomelo">Pomelo</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -322,6 +327,7 @@ const WaitSelenium = {
                             <div>
                                 <input type="radio" name="forSelectedRadio" value="Selected" checked/> Selected Radio <br/>
                                 <input type="radio" name="notSelectedRadio" value="Not Selected"/> Not Selected Radio
+
                             </div>
                         </div>
                     </div>
@@ -342,6 +348,54 @@ const WaitSelenium = {
                                 <button id="clickableBtn">Clickable</button>
                                 <button id="unclickableBtn" disabled="true">Disabled button</button>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        Wait For Frame
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <div id="elementFrame">
+                           <iframe src="simple.html"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        Wait For Window
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <div id="elementWindow">
+                           <a href="simple.html" target="blank">Open Window</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        Wait For Window
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <div id="elementStateless">
+                           <a href="simple.html">Go to URL</a>
                         </div>
                     </div>
                 </div>
