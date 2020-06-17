@@ -33,6 +33,7 @@ Vue.component('main-nav-bar', {
                     <router-link to="/seleniumwait" class="navbar-link">Tags</router-link>
                     <div class="navbar-dropdown is-boxed">
                         <router-link to="/seleniumwait" class="navbar-item">Selenium Wait</router-link>
+                        <router-link to="/seleniumlocator" class="navbar-item">Selenium Locators</router-link>
                     </div>
                 </div>
                 <router-link to="/about" class="navbar-item">About</router-link>
@@ -406,6 +407,30 @@ const WaitSelenium = {
     `
 }
 
+const Locators = {
+    template: `
+        <div>
+            <div class="has-text-centered">
+                <div class="columns">
+                    <div class="column is-size-1 is-three-fifths is-offset-one-fifth">Details </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-three-fifths is-offset-one-fifth">
+                        <div id="locatorId">This is for locator ID</div>
+                        <div id="locatorCSSSelector">This is for locator CSS SELECTOR</div>
+                        <div><b>This is for locator TAG</b></div>
+                        <div class="is-medium"><b>This is for locator CLASS NAME</b></div>
+                        <div><input name="locatorName" value="This is for locator NAME"></div>
+                        <div><i>This is for locator XPATH</i></div>
+                        <div><a href="#">This is for locator LINK TEXT</a></div>
+                        <div><a href="#">This is for locator PARTIAL LINK TEXT</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `
+}
+
 const About = {
     template: `
         <div>
@@ -431,6 +456,7 @@ const routes = [
     { path: '/forms', component: FormSubmitPage },
     { path: '/staticdetails', component: StaticDetails },
     { path: '/seleniumwait', component: WaitSelenium },
+    { path: '/seleniumlocator', component: Locators },
     { path: '/about', component: About }
 ]
 
