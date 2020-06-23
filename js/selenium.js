@@ -34,6 +34,7 @@ Vue.component('main-nav-bar', {
                     <div class="navbar-dropdown is-boxed">
                         <router-link to="/seleniumwait" class="navbar-item">Selenium Wait</router-link>
                         <router-link to="/seleniumlocator" class="navbar-item">Selenium Locators</router-link>
+                        <router-link to="/seleniumlocators" class="navbar-item">Selenium Multiple Locators</router-link>
                     </div>
                 </div>
                 <router-link to="/about" class="navbar-item">About</router-link>
@@ -412,7 +413,7 @@ const Locators = {
         <div>
             <div class="has-text-centered">
                 <div class="columns">
-                    <div class="column is-size-1 is-three-fifths is-offset-one-fifth">Details </div>
+                    <div class="column is-size-3 is-three-fifths is-offset-one-fifth">Locators And Find By Single Element</div>
                 </div>
                 <div class="columns">
                     <div class="column is-three-fifths is-offset-one-fifth">
@@ -424,6 +425,50 @@ const Locators = {
                         <div><i>This is for locator XPATH</i></div>
                         <div><a href="#">This is for locator LINK TEXT</a></div>
                         <div><a href="#">This is for locator PARTIAL LINK TEXT</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `
+}
+
+const MultipleLocators = {
+    template: `
+        <div>
+            <div class="has-text-centered">
+                <div class="columns">
+                    <div class="column is-size-3 is-three-fifths is-offset-one-fifth">Multiple Elements </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-one-third">
+                        <div id="locatorId">This is for locator ID 1</div>
+                        <div id="locatorCSSSelector">This is for locator CSS SELECTOR 1</div>
+                        <div><b>This is for locator TAG 1</b></div>
+                        <div class="is-medium"><b>This is for locator CLASS NAME 1</b></div>
+                        <div><input name="locatorName" value="This is for locator NAME 1"></div>
+                        <div><i>This is for locator XPATH 1</i></div>
+                        <div><a href="#">This is for locator LINK TEXT 1</a></div>
+                        <div><a href="#">This is for locator PARTIAL LINK TEXT 1</a></div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div id="locatorId">This is for locator ID 2</div>
+                        <div id="locatorCSSSelector">This is for locator CSS SELECTOR 2</div>
+                        <div><b>This is for locator TAG 2</b></div>
+                        <div class="is-medium"><b>This is for locator CLASS NAME 2</b></div>
+                        <div><input name="locatorName" value="This is for locator NAME 2"></div>
+                        <div><i>This is for locator XPATH 2</i></div>
+                        <div><a href="#">This is for locator LINK TEXT 2</a></div>
+                        <div><a href="#">This is for locator PARTIAL LINK TEXT 2</a></div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div id="locatorId">This is for locator ID 3</div>
+                        <div id="locatorCSSSelector">This is for locator CSS SELECTOR 3</div>
+                        <div><b>This is for locator TAG 3</b></div>
+                        <div class="is-medium"><b>This is for locator CLASS NAME 3</b></div>
+                        <div><input name="locatorName" value="This is for locator NAME 3"></div>
+                        <div><i>This is for locator XPATH 3</i></div>
+                        <div><a href="#">This is for locator LINK TEXT 3</a></div>
+                        <div><a href="#">This is for locator PARTIAL LINK TEXT 3</a></div>
                     </div>
                 </div>
             </div>
@@ -457,6 +502,7 @@ const routes = [
     { path: '/staticdetails', component: StaticDetails },
     { path: '/seleniumwait', component: WaitSelenium },
     { path: '/seleniumlocator', component: Locators },
+    { path: '/seleniumlocators', component: MultipleLocators },
     { path: '/about', component: About }
 ]
 
