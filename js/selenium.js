@@ -447,7 +447,7 @@ const MultipleLocators = {
                         <div class="is-medium"><b>This is for locator CLASS NAME 1</b></div>
                         <div><input name="locatorName" value="This is for locator NAME 1"></div>
                         <div><i>This is for locator XPATH 1</i></div>
-                        <div><a href="#">This is for locator LINK TEXT 1</a></div>
+                        <div><a href="#">This is for locator LINK TEXT</a></div>
                         <div><a href="#">This is for locator PARTIAL LINK TEXT 1</a></div>
                     </div>
                     <div class="column is-one-third">
@@ -457,7 +457,7 @@ const MultipleLocators = {
                         <div class="is-medium"><b>This is for locator CLASS NAME 2</b></div>
                         <div><input name="locatorName" value="This is for locator NAME 2"></div>
                         <div><i>This is for locator XPATH 2</i></div>
-                        <div><a href="#">This is for locator LINK TEXT 2</a></div>
+                        <div><a href="#">This is for locator LINK TEXT</a></div>
                         <div><a href="#">This is for locator PARTIAL LINK TEXT 2</a></div>
                     </div>
                     <div class="column is-one-third">
@@ -467,7 +467,7 @@ const MultipleLocators = {
                         <div class="is-medium"><b>This is for locator CLASS NAME 3</b></div>
                         <div><input name="locatorName" value="This is for locator NAME 3"></div>
                         <div><i>This is for locator XPATH 3</i></div>
-                        <div><a href="#">This is for locator LINK TEXT 3</a></div>
+                        <div><a href="#">This is for locator LINK TEXT</a></div>
                         <div><a href="#">This is for locator PARTIAL LINK TEXT 3</a></div>
                     </div>
                 </div>
