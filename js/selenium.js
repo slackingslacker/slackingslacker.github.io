@@ -443,7 +443,7 @@ const MultipleLocators = {
                     <div class="column is-one-third">
                         <div id="locatorId">This is for locator ID 1</div>
                         <div id="locatorCSSSelector">This is for locator CSS SELECTOR 1</div>
-                        <div><b>This is for locator TAG 1</b></div>
+                        <div><strong>This is for locator TAG 1</strong></div>
                         <div class="is-medium"><b>This is for locator CLASS NAME 1</b></div>
                         <div><input name="locatorName" value="This is for locator NAME 1"></div>
                         <div><i>This is for locator XPATH 1</i></div>
@@ -453,7 +453,7 @@ const MultipleLocators = {
                     <div class="column is-one-third">
                         <div id="locatorId">This is for locator ID 2</div>
                         <div id="locatorCSSSelector">This is for locator CSS SELECTOR 2</div>
-                        <div><b>This is for locator TAG 2</b></div>
+                        <div><strong>This is for locator TAG 2</strong></div>
                         <div class="is-medium"><b>This is for locator CLASS NAME 2</b></div>
                         <div><input name="locatorName" value="This is for locator NAME 2"></div>
                         <div><i>This is for locator XPATH 2</i></div>
@@ -463,7 +463,7 @@ const MultipleLocators = {
                     <div class="column is-one-third">
                         <div id="locatorId">This is for locator ID 3</div>
                         <div id="locatorCSSSelector">This is for locator CSS SELECTOR 3</div>
-                        <div><b>This is for locator TAG 3</b></div>
+                        <div><strong>This is for locator TAG 3</strong></div>
                         <div class="is-medium"><b>This is for locator CLASS NAME 3</b></div>
                         <div><input name="locatorName" value="This is for locator NAME 3"></div>
                         <div><i>This is for locator XPATH 3</i></div>
