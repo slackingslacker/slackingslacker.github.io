@@ -494,10 +494,10 @@ const Selectors = {
                     <div class="column is-one-third" id="secondDiv">
                         <div><i>Search </><i>All </i><i>i </i><i>tag</i></div>
                         <div><span class="has-text-link">Search element with class name</span></div>
-                        <div id="strongId"><strong>Search Strong tag</strong><u>and bold tag</u></div>
+                        <div id="strongId"><strong>Search Strong tag </strong><u>and underline tag</u></div>
                         <div><p>Search p inside a div tag</p></div>
-                        <div><b>Search span after </b><span>i tag</span></div>
-                        <div><span>Search span before </span><b>i tag</b></div>
+                        <div><b></b><span>Search span after b tag</span></div>
+                        <div><span>Search span before b tag </span><b></b></div>
                     </div>
                     <div class="column is-one-third" id="thirdDiv">
                         <div><a href="#" target="_self">Search by target attribute</a></div>
