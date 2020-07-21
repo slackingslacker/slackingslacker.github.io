@@ -35,6 +35,7 @@ Vue.component('main-nav-bar', {
                         <router-link to="/seleniumwait" class="navbar-item">Selenium Wait</router-link>
                         <router-link to="/seleniumlocator" class="navbar-item">Selenium Locators</router-link>
                         <router-link to="/seleniumlocators" class="navbar-item">Selenium Multiple Locators</router-link>
+                        <router-link to="/seleniumselectors" class="navbar-item">Selenium Selectors</router-link>
                     </div>
                 </div>
                 <router-link to="/about" class="navbar-item">About</router-link>
@@ -476,6 +477,43 @@ const MultipleLocators = {
     `
 }
 
+const Selectors = {
+    template: `
+        <div>
+            <div class="has-text-centered">
+                <div class="columns">
+                    <div class="column is-size-3 is-three-fifths is-offset-one-fifth">CSS Selectors</div>
+                </div>
+                <div class="columns is-multiline">
+                    <div class="column is-one-third" id="firstDiv">
+                        <div class="has-background-primary">Search by Single CSS Class</div>
+                        <div class="has-background-info has-text-link">Search by Multiple CSS Classes</div>
+                        <div class="has-background-light"><div class="has-text-dark">Search by Parent Child CSS Class Names</div></div>
+                        <div id="elementId">Search by Element ID</div>
+                    </div>
+                    <div class="column is-one-third" id="secondDiv">
+                        <div><i>Search </><i>All </i><i>i </i><i>tag</i></div>
+                        <div><span class="has-text-link">Search element with class name</span></div>
+                        <div id="strongId"><strong>Search Strong tag</strong><bold>and bold tag</bold></div>
+                        <div><p>Search p inside a div tag</p></div>
+                        <div><i>Search span after </i><span>i tag</span></div>
+                        <div><span>Search span before </span><i>i tag</i></div>
+                    </div>
+                    <div class="column is-one-third" id="thirdDiv">
+                        <div><a href="#" target="_self">Search by target attribute</a></div>
+                        <div><input type="text" value="Search by Value Attribute"></div>
+                        <div><input type="text" value="Search by Value Attribute Containing THIS word"></div>
+                        <div><span data-info="starting">Starting Attribute </span><span data-info="started">Started Attribute</span></div>
+                        <div><span class="has-background-secondary">Search by attribute class starts with</span></div>
+                        <div><span class="has-text-link">Search by attribute ends with</span></div>
+                        <div><span class="has-background-info has-text-link">Search by attribute contains word</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `
+}
+
 const About = {
     template: `
         <div>
@@ -503,6 +541,7 @@ const routes = [
     { path: '/seleniumwait', component: WaitSelenium },
     { path: '/seleniumlocator', component: Locators },
     { path: '/seleniumlocators', component: MultipleLocators },
+    { path: '/seleniumselectors', component: Selectors },
     { path: '/about', component: About }
 ]
 
