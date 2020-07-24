@@ -503,7 +503,7 @@ const Selectors = {
                         <div><a href="#" target="_self">Search by target attribute</a></div>
                         <div><input type="text" value="Search by Value Attribute"></div>
                         <div><input type="text" value="Search by Value Attribute Containing THIS word"></div>
-                        <div><span data-info="starting">Starting Attribute </span><span data-info="started">Started Attribute</span></div>
+                        <div><span data-info="starting">Starting Attribute 1</span><span data-info="starting">Starting Attribute 2</span></div>
                         <div><span class="has-background-secondary">Search by attribute class starts with</span></div>
                         <div><span class="has-text-link">Search by attribute ends with</span></div>
                         <div><span class="has-background-info has-text-link">Search by attribute contains word</span></div>
